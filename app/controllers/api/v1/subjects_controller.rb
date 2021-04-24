@@ -4,4 +4,8 @@ class Api::V1::SubjectsController < Api::V1::BaseController
 
     render json: @subjects
   end
+
+  def show
+
+  end
 end
